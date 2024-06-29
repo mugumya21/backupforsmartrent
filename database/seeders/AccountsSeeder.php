@@ -1,0 +1,27 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use Carbon\Carbon;
+use App\Models\Accounts\Account;
+use App\Models\Accounts\Currency;
+
+class AccountsSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $currency = Currency::where('code','UGX')->first();
+        Account::firstOrCreate(
+            ['number' => 'PETTYCASH'],
+            ['name' => 'Petty Cash',
+                'currency_id' => $currency->id,
+                'balance' => '0',
+                'created_by' => 1, 'created_at' => Carbon::now()]
+        );
+    }
+}

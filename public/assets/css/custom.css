@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    font-family: robotoregular !important;
+}
+
+input, button, select, optgroup, textarea, label, .alert, .badge, .blockquote-footer, .btn, [data-list] .page, .tox .tox-menu__footer .tox-button:last-child, .tox .tox-dialog__footer .tox-button:last-child, .tox .tox-menu__footer .tox-button--secondary, .tox .tox-dialog__footer .tox-button--secondary, .navbar, .pagination, .valid-feedback, .invalid-feedback {
+    font-family: robotoregular !important;
+}
+
+.card-header {
+    padding: 5px 1.25rem !important; 
+}
+
+.btn-sm{
+    padding: 5px !important;
+    line-height: 10px !important;
+}
+/* button.btn.btn-primary{
+    line-height: 1.2 !important;
+} */
+
+.asterik:after {
+    margin-bottom: 15px;
+    content: '*';
+    color: red;
+    padding-left: 5px;
+}
+
+.toast {
+    z-index: 10000 !important;
+    opacity: 1 !important;
+}
+
+p.mb-0.text-600 {
+    font-family: robotoregular;
+}
+
+.col-lg.col-xxl-5.details {
+    font-size: 14px;
+}
+
+.sticky-sidebar {
+    top: 0 !important;
+}
+
+.nav-pills-falcon .btn.active{
+    margin-left:10px;
+    font-size: 12px;
+}
+
+.nav-pills-falcon {
+    background: none !important;
+    border: none !important;
+}
+
+.page-link {
+    padding: 0.2rem 0.75rem !important;
+}
+
+.dataTables_info {
+    font-family: robotoregular;
+    font-size: 13px;
+}
+
+.tabbedheader{
+    padding-top: 0px !IMPORTANT;
+    padding-bottom: 0px !important;
+
+}
+
+.actions{
+    float: right;
+}
+
+.showbuttons{
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+body {
+    font-family: robotoregular !important;
+}
+
+.card-header.bg-light.d-flex.justify-content-between.tabbedheader{
+   
+}
+.hidden{
+    display: none !important;
+}
+ul#myTab li a {
+    font-family: robotoregular;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 0.1px;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border-radius: 0px !important;   
+}
+
+.tab-content>.tab-pane {
+    font-family: robotoregular;
+    font-size: 13px;
+}
+
+.card-header.bg-light h5 {
+    font-size: 14px;
+}
+
+.bigname{
+    text-transform: uppercase;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    font-size: 13px;
+}
+
+.bg-light.rounded-top-lg.py-2.ps-3.pe-6 h4 {
+    font-size: 15px !important;
+    margin-bottom: 0px !important;
+}
+
+button.btn-circle {
+    width: 0.6rem !important;
+    height: 0.6rem !important;
+}
+
+.mb-1 {
+    margin-bottom: 0px !important;
+}
+.modal-body .col-md-12 {
+    margin-top: 10px;
+}
+
+select.placeholder-shown {
+    color: grey !important;
+  }
+  select.placeholder-hidden {
+    color: red !important;
+  }
+  
+.nopadding-left-right{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.nobottompadding{
+    margin-bottom: 0px !important;
+}
+
+div#details {
+    font-size: 13px !important;
+}
+
+html.themeClassselector.light.dark.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete .card-header.bg-light{
+    background: #0863f7 !important;
+}
+
+html.themeClassselector.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete.light .card-header.bg-light{
+    background: #0863f7 !important; 
+}
+
+
+html.themeClassselector.light.dark.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete .card-header.bg-light h5{
+    font-size: 14px;
+    color: #fff;
+}
+
+html.themeClassselector.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete.light .card-header.bg-light h5{
+    font-size: 14px;
+    color: #fff;
+}
+
+html.themeClassselector.light.dark.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete .card-header.bg-light .nav-tabs .nav-link{
+color: #ffff;
+}
+
+html.themeClassselector.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete.light .card-header.bg-light .nav-tabs .nav-link{
+    color: #fff;
+}
+
+html.themeClassselector.light.dark.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete .card-header.bg-light .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    background: #eef3f9  !important;
+    color: #000 !important;
+}
+
+
+html.themeClassselector.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete.light .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    background: #fff !important;
+    color: #000 !important;
+}
+
+/* .dataTables_scrollHeadInner {
+    width: 100% !important;
+}
+
+table.table.table-striped.table-bordered.fs--1.mb-0.dataTable.no-footer {
+    width: 100% !important;
+} */
+
+html.themeClassselector.light.dark.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete .card-header.bg-light .bg-light.rounded-top-lg.py-2.ps-3.pe-6 {
+    background: #0863f7  !important;
+}
+
+
+html.themeClassselector.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete.light .bg-light.rounded-top-lg.py-2.ps-3.pe-6 {
+    background: #0863f7  !important;
+}
+
+
+html.themeClassselector.light.dark.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete .bg-light.rounded-top-lg.py-2.ps-3.pe-6 h4{
+    color:#fff;
+}
+
+html.themeClassselector.chrome.windows.fontawesome-i2svg-active.fontawesome-i2svg-complete.light 
+{
+    color:#fff;
+}
+
+#datatable {
+    width: 100% !Important;
+    }
+
+    .nav-tabs .nav-link.active {
+        border-bottom: none !important;
+    }
+
+    .choices[data-type*=select-multiple] .choices__button, .choices[data-type*=text] .choices__button {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMSAyMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yLjU5Mi4wNDRsMTguMzY0IDE4LjM2NC0yLjU0OCAyLjU0OEwuMDQ0IDIuNTkyeiIvPjxwYXRoIGQ9Ik0wIDE4LjM2NEwxOC4zNjQgMGwyLjU0OCAyLjU0OEwyLjU0OCAyMC45MTJ6Ii8+PC9nPjwvc3ZnPg==) !important;
+    }
+
+    .choices .choices__list--dropdown .choices__item--selectable {
+        font-size: 15px !important;
+        color: #000 !important;
+    }
+
+    span.select2.select2-container.select2-container--default.select2-container--below.select2-container--focus.select2-container--open {
+        width: 100% !important;
+    }
+
+    .modal-body .col-md-6,.col-md-12,.col-md-4 {
+        margin-top: 3px !important;
+    } 
+
+    .form-label {
+        margin-bottom: 3px !important;
+}
+
+.container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 100% !important;
+}
+.nav-tabs li.nav-item {
+    border-right: 1px solid #fff;
+}
+.nav-tabs .nav-link {
+    padding: 5px !important;
+    padding-right:10px !important;
+    padding-left:10px !important;
+}
+
+body {
+    font-size: 13px !important; 
+}
+
+
+.navbar-vertical.navbar-expand-xl+.content .navbar-top{
+    background: #0863f7 !important;
+    margin-bottom: 20px !important;
+}
+
+
+.navbar-vertical.navbar-expand-xl+.content .navbar-top{
+    background: #0863f7 !important;
+    margin-bottom: 20px !important;
+}
+

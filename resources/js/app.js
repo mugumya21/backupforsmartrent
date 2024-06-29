@@ -1,0 +1,12 @@
+import './bootstrap';
+import '../../public/assets/js/config.js';
+import '../../public/vendors/popper/popper.min.js';
+import '../../public/vendors/bootstrap/bootstrap.min.js';
+import '../../public/vendors/anchorjs/anchor.min.js';
+import '../../public/vendors/is/is.min.js';
+import '../../public/vendors/echarts/echarts.min.js';
+import '../../public/vendors/fontawesome/all.min.js';
+import '../../public/vendors/lodash/lodash.min.js';
+import '../../public/assets/js/polyfill.min.js?features=window.scroll';
+import '../../public/vendors/list/list.min.js';
+import '../../public/assets/js/theme.js';
